@@ -68,7 +68,7 @@ class CrUXDownloader:
 
 class CrUXRepoManager:
 
-    MIN_YYYYMM = datetime.datetime(2024, 9, 1)
+    MIN_YYYYMM = datetime.datetime(2024, 1, 1)
     GLOBAL_DIR_NAME = "global"
     COUNTRY_DIR_NAME = "country"
 
