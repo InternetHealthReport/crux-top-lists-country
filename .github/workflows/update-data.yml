@@ -31,6 +31,7 @@ jobs:
           timestamp=$(date -u --rfc-3339=date)
           git commit -m "Latest data: ${timestamp}" || exit 0
           echo ${timestamp} > latest.txt
+          git add latest.txt
           git commit -m "Latest data: ${timestamp}" 
           git push
            
