@@ -129,3 +129,32 @@ _ACM Internet Measurement Conference_ (IMC), October 2022
 Kimberly Ruth, Aurore Fass, Jonathan Azose, Mark Pearson, Emma Thomas, Caitlin Sadowski, and Zakir Durumeric<br/>
 _ACM Internet Measurement Conference_ (IMC), October 2022
 
+
+## How to Use This Dataset
+
+The CSV files in this repository can be used for web measurement, security research, performance analysis, and regional popularity studies.
+
+Each record contains:
+
+| Field  | Description                                         |
+| ------ | --------------------------------------------------- |
+| origin | The website origin (e.g., `https://www.google.com`) |
+| rank   | Popularity bucket assigned by the Chrome UX Report  |
+
+Example:
+
+```csv
+origin,rank
+https://www.google.com,1000
+https://www.w3schools.com,1000
+https://example.com,10000
+```
+
+Researchers can filter websites by popularity bucket, compare website popularity across countries, or use the dataset as a seed list for large-scale web studies.
+
+Because rankings are grouped into popularity buckets rather than exact positions, websites within the same bucket should be considered to have a similar level of popularity.
+
+```
+```
+
+
