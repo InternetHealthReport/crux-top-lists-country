@@ -154,7 +154,4 @@ Researchers can filter websites by popularity bucket, compare website popularity
 
 Because rankings are grouped into popularity buckets rather than exact positions, websites within the same bucket should be considered to have a similar level of popularity.
 
-```
-```
-
 
